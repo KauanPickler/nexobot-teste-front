@@ -1,10 +1,12 @@
 import { useEffect } from "react"
+import Cadastro from "./Cadastro"
 
 const NAV = [
   { label: "Início", href: "#home" },
   { label: "Serviços", href: "#servicos" },
   { label: "Raças", href: "#racas" },
   { label: "Depoimentos", href: "#depoimentos" },
+  { label: "Criar conta", href: "#cadastro" },
   { label: "Contato", href: "#contato" },
 ]
 
@@ -163,6 +165,8 @@ export default function App() {
           ))}
         </div>
       </section>
+
+      <Cadastro />
 
       <section id="contato" className="cta">
         <div className="cta-inner reveal">

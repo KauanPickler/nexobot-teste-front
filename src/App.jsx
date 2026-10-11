@@ -187,7 +187,7 @@ export default function App() {
           </nav>
         </div>
         <div className="footer-bottom">
-          <span>© 2024 PataAmiga — Cuidado que abana o rabo 🐕</span>
+          <span>© 2026 PataAmiga — Cuidado que abana o rabo 🐕</span>
           <span>Feito com ❤️ pela A3P Programação</span>
         </div>
       </footer>
